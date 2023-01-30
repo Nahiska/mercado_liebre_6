@@ -1,0 +1,95 @@
+@import url('login.css');
+@import url('register.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.form__input--container {
+    margin-bottom: 1.5rem;
+}
+
+.input-style {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    min-width: 400px;
+}
+
+.form__input--container--birth {
+    margin-bottom: 1.5rem;
+}
+
+.form__input--container--birth label {
+    font-size: 0.8rem;
+}
+.form__container h3 {
+    margin: 1rem 0;
+}
+
+.form__check--container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+}
+
+.form__categories {
+    margin: 1rem;
+}
+
+.form__categories label {
+    margin-left: 1rem;
+}
+
+.form__btn {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    background-color: var(--celeste);
+    margin: 0.8rem 0;
+    color: white;
+}
+
+.form__send {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    background-color: var(--celeste);
+    margin: 0.8rem 0;
+}
+
+span.error-message {
+    color: red;
+    font-size: 0.8rem;
+    display: none;
+}
+
+.form__check--terms a {
+    color: var(--celeste)
+}
+
+.form span a {
+    color: var(--celeste)
+}
+
+.btn__link {
+    color: var(--celeste);
+    color: white
+}
+
